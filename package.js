@@ -8,7 +8,7 @@ Package.on_use(function(api) {
   // Export Accounts (etc) to packages using this one.
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('googleapps', ['client', 'server']);
+  api.use('googleapps-meteor', ['client', 'server']);
 
   api.add_files('googleapps_login_button.css', 'client');
 
